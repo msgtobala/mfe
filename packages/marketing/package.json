@@ -2,6 +2,7 @@
   "name": "marketing",
   "version": "1.0.0",
   "scripts": {
+    "install": "npm install --legacy-peer-deps",
     "start": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js"
   },
